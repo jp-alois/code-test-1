@@ -1,7 +1,7 @@
 import torch
 
 def x():
-    # Check if CUDA is available
+     # check 
     if torch.cuda.is_available():
         device = torch.device("cuda")
         print("CUDA is available. Using GPU.")
