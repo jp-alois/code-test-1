@@ -1,6 +1,6 @@
 import torch
 
-def main():
+def x():
     # Check if CUDA is available
     if torch.cuda.is_available():
         device = torch.device("cuda")
@@ -8,8 +8,6 @@ def main():
     else:
         device = torch.device("cpu")
         print("CUDA is not available. Using CPU.")
-
-    # Create a tensor and move it to the selected device
     x = torch.tensor([1.0, 2.0, 3.0])
 x = x.to(device)
     print(f"Tensor is on device: {x.device}")
