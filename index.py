@@ -11,3 +11,4 @@ def x():
     x = torch.tensor([1.0, 2.0, 3.0])
 x = x.to(device)
 print(f"Tensor is on device: {x.device}")
+
