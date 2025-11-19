@@ -12,3 +12,5 @@ def x():
 x = x.to(device)
 print(f"Tensor is on device: {x.device}")
 
+
+
